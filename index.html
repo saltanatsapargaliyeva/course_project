@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltanat Sapargaliyeva's CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href="index.html"><img src="images/logo.png"  width="80px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contactme.html">Contact me</a></li>
+                </li>
+            </ul>
+        </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+     </div> 
+    <div class="row">
+        <div class="col-2">
+            <h1>Saltanat Sapargaliyeva<br>CV</h1>
+            <p>Passionate senior student hoping with expected graduation in June 2023. Has proven 6+ months experience in audit. After working in the industry and taking several analytical and mathematics courses, I have found that I am a data-driven person who enjoys working on real-life projects requiring analytical skills.</p>
+            <a href="cv.html" class="btn">Explore my CV</a>
+        </div>
+    </div>
+   </div>
+</div>
+<!--------- featured categories ---------->
+    <div class="categories">
+        <div class="small-container">
+          <h2 class="title">Me and my hobbies</h2>
+           <div class="row">
+            <div class="col-3">
+              <img src="images/1.jpg" alt="" title="Personal photo" />
+             
+            </div>
+            <div class="col-3">
+               <img src="images/2.jpg" alt="" title="Outdoor" />
+               
+            </div>
+            <div class="col-3">
+               <img src="images/3.jpeg" alt="" title="Yoga" />
+               
+            </div>
+            <div class="col-3">
+                 <img src="images/4.jpeg" alt="" title="Reading" />
+            </div>
+        </div> 
+        </div>  
+    </div>
+   
+
+<!--------- footer ---------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+               <div class="footer-col">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/saltanatsapargaliyeva/" class="inst">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------- JavaScript for toggle menu ---------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "220px";
+            }
+        else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+    }
+</script>
+<script src="main.js"></script>
+</body>
+</html>
